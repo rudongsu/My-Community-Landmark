@@ -4,6 +4,7 @@ import CurrentLocation from "./Map";
 import * as axios from "axios";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Background from './Background';
 
 import {
   Container,
@@ -119,10 +120,10 @@ export class MapContainer extends Component {
         </Row>
         <hr></hr>
 
-        <h6>3. Past notes...</h6>
+        <h6>Past notes...</h6>
 
         <Row>{this.state.note}</Row>
-
+        <Background/>
       </Container>
     );
     ReactDOM.render(
@@ -179,5 +180,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "",
+  apiKey: "AIzaSyAhvi0NsEq23L8cAG0xKXZdIVofTt48ssA",
 })(MapContainer);
