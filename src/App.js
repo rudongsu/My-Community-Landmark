@@ -14,7 +14,6 @@ import {
   FormControl,
 } from "react-bootstrap";
 
-//based on code from https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications
 const api = axios.create({
   baseURL: "https://localhost:5001/notes",
 });
@@ -180,5 +179,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyAhvi0NsEq23L8cAG0xKXZdIVofTt48ssA",
+//  apiKey: "AIzaSyAhvi0NsEq23L8cAG0xKXZdIVofTt48ssA",
 })(MapContainer);
