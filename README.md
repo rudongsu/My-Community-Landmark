@@ -1,6 +1,10 @@
-# My-Community-Landmark
+# My Community Landmark
+https://mycommunitylandmark.netlify.app/
 
 A responsive web application that allows users to save location based notes on Google Maps. 
+Server side is built with both on
+- Node, Express and MongoDB
+- .NET Core Web API, EF Core and SQL Server
 
 It enables an user to 
 - see current location on the map
