@@ -122,32 +122,6 @@ export class TableOverlay extends Component {
           </ButtonGroup>
         </div>
 
-        {/* <Row>
-          <Col xs={12} md={10}>
-            <div
-              className="col-md-12 btn btn-info"
-              onClick={() => {
-                this.setState({ toggle: !this.state.toggle });
-              }}
-              onMouseEnter={() => {
-                this.setState({ toggle: true });
-              }}
-              //onMouseLeave={() => {this.setState({toggle: false})}}
-            >
-              Check the community
-            </div>
-          </Col>
-          <Col xs={6} md={2}>
-            <div
-              className="col-md-12 btn btn-danger"
-              onClick={() => {
-                window.location.reload();
-              }}
-            >
-              Logout
-            </div>
-          </Col>
-        </Row> */}
 
         {this.state.toggle ? (
           <div style={{ margin: 0 }} className="overlay">
